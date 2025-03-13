@@ -1,0 +1,71 @@
+@import "./scss/functions";
+@import "./scss/variables";
+
+$fs7: 1.8rem;
+$fs8: 1.4rem;
+$fs9: 1rem;
+$fs10: 0.5rem;
+$new-font-sizes: (
+  "fs-7": $fs7,
+  "fs-8": $fs8,
+  "fs-9": $fs9,
+  "fs-10": $fs10,
+);
+$font-sizes: map-merge($font-sizes, $new-font-sizes);
+
+$border-6: 6px;
+$border-7: 7px;
+$border-8: 8px;
+$border-9: 9px;
+$border-10: 10px;
+$new-border-widths: (
+  "border-6": $border-6,
+  "border-7": $border-7,
+  "border-8": $border-8,
+  "border-9": $border-9,
+  "border-10": $border-10,
+);
+$border-widths: map-merge($border-widths, $new-border-widths);
+
+$btn-padding-y: 0.75rem;
+$btn-padding-x: 2.5rem;
+
+$grid-gutter-width: 0.5rem;
+
+$new-danger: #ff0077;
+$new-info: #00ffea;
+$new-light: #f3eeff;
+$epicode-1: #5726c3;
+$epicode-2: #8625a5;
+$epicode-3: #cb2376;
+
+$new-theme-colors: (
+  "danger": $new-danger,
+  "info": $new-info,
+  "light": $new-light,
+  "epicode-1": $epicode-1,
+  "epicode-2": $epicode-2,
+  "epicode-3": $epicode-3,
+);
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+
+$new-grid-breakpoints: (
+  "3xl": 1600px,
+  "4xl": 1800px,
+);
+$grid-breakpoints: map-merge($grid-breakpoints, $new-grid-breakpoints);
+
+$new-container-max-widths: (
+  "3xl": 1520px,
+  "4xl": 1720px,
+);
+$container-max-widths: map-merge(
+  $container-max-widths,
+  $new-container-max-widths
+);
+
+$border-radius: 2rem;
+//$border-width,
+//$border-widths,
+//$display-font-sizes
+@import "./scss/bootstrap.scss";
