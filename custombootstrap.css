@@ -9335,15 +9335,15 @@ textarea.form-control-lg {
 }
 
 .fs-fs-7 {
-  font-size: calc(1.305rem + 0.66vw) !important;
+  font-size: 0.8rem !important;
 }
 
 .fs-fs-8 {
-  font-size: calc(1.265rem + 0.18vw) !important;
+  font-size: 0.7rem !important;
 }
 
 .fs-fs-9 {
-  font-size: 1rem !important;
+  font-size: 0.6rem !important;
 }
 
 .fs-fs-10 {
@@ -14128,12 +14128,6 @@ textarea.form-control-lg {
   }
   .fs-4 {
     font-size: 1.5rem !important;
-  }
-  .fs-fs-7 {
-    font-size: 1.8rem !important;
-  }
-  .fs-fs-8 {
-    font-size: 1.4rem !important;
   }
 }
 @media print {
